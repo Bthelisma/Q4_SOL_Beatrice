@@ -18,7 +18,7 @@ umi.use(signerIdentity(signer));
 (async () => {
     try {  
         //1. Load image             
-        const image = await readFile("/Users/beatricethelisma/solana-starter/ts/generug.png");
+        const image = await readFile("/Users/beatricethelisma/Q3T_SOL-BeatriceThelisma/ts/generug.png");
         //console.log(image)
         //2. Convert image to generic file.
         const file = createGenericFile(image, "generug", {contentType: "image/png"});
